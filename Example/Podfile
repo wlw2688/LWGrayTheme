@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LWGrayTheme_Example' do
+  pod 'LWGrayTheme', :path => '../'
+
+  target 'LWGrayTheme_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
