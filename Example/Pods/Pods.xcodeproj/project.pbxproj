@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032288D70D7C66AAE6CF4D76788AB027 /* LWGrayTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903FA9B4AB9639A8B66C2F068D6FC751 /* LWGrayTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04E2B3BA13F7D461A9746B2A676CD84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E0DACDF5734A1A2B4F16722E54F55CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		737DBDB514379976AA30EFF643482854 /* Pods-LWGrayTheme_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EED7B04F6D1611431E8D5D06876DCD0A /* Pods-LWGrayTheme_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D8C5BE3E676BC72C633C3F942D24DA /* LWGrayTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E723527E153E9175958566CD1CEEB43B /* LWGrayTheme-dummy.m */; };
+		8D6C2124FA68BA22A73992D6CA28BE74 /* Pods-LWGrayTheme_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 831C369A946B74EF9F11B9CFC050CAA4 /* Pods-LWGrayTheme_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1132B0A0FF104769B8A7F68972E632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A755F48C05E04B635C4D977EB1F07919 /* Pods-LWGrayTheme_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03D2B46B3A2229A2A869151E835848 /* Pods-LWGrayTheme_Tests-dummy.m */; };
+		E9DCE8F29876E519603DE01735EBA47C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF8FA85FA2EC2AFD127407A721FAF7 /* ReplaceMe.m */; };
+		F3AA4164E0EB63D9A6FC62719EB491C2 /* Pods-LWGrayTheme_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BC69B048CAC23FAEBD05E97BFDBCB7 /* Pods-LWGrayTheme_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3946C82512EF5AA6CD98136F628B7983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE6A009D468E66F1C1A12755BE5A6BD1;
+			remoteInfo = LWGrayTheme;
+		};
+		A5E9AF87BC7ABE02E346120CB1874825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D8B054DA8DE570FF2A1FF06C8B950BB;
+			remoteInfo = "Pods-LWGrayTheme_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D8D4AD326219D273E37F567E2E6FF1 /* Pods-LWGrayTheme_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWGrayTheme_Example-frameworks.sh"; sourceTree = "<group>"; };
+		19BC69B048CAC23FAEBD05E97BFDBCB7 /* Pods-LWGrayTheme_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWGrayTheme_Example-dummy.m"; sourceTree = "<group>"; };
+		3C144D5F23F4EA2F079D74A12F4AC753 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5213EB4665AF3CE4940EEE2F4F275328 /* Pods-LWGrayTheme_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWGrayTheme_Tests-Info.plist"; sourceTree = "<group>"; };
+		58F33739FC337304D3495302A5DCC2CA /* LWGrayTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWGrayTheme-prefix.pch"; sourceTree = "<group>"; };
+		599950FFA1214BC1E79FEF882B5988EE /* LWGrayTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWGrayTheme.modulemap; sourceTree = "<group>"; };
+		6A0F2C11A8AF3B7A0E044D68EEC58A05 /* Pods-LWGrayTheme_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWGrayTheme_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78115C047A8B31A1632A992948042306 /* LWGrayTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWGrayTheme-Info.plist"; sourceTree = "<group>"; };
+		7920E87234FC0B908373C95E8D76358D /* Pods-LWGrayTheme_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWGrayTheme_Example.release.xcconfig"; sourceTree = "<group>"; };
+		831C369A946B74EF9F11B9CFC050CAA4 /* Pods-LWGrayTheme_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWGrayTheme_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A0192A64837CE2A213ACED1A084B965 /* Pods-LWGrayTheme_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LWGrayTheme_Example"; path = Pods_LWGrayTheme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903FA9B4AB9639A8B66C2F068D6FC751 /* LWGrayTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWGrayTheme-umbrella.h"; sourceTree = "<group>"; };
+		97A339E05FD6E146C4609B51DA496CD2 /* Pods-LWGrayTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWGrayTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BB454B32F82B59783819126D051E275 /* Pods-LWGrayTheme_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LWGrayTheme_Tests"; path = Pods_LWGrayTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C03D2B46B3A2229A2A869151E835848 /* Pods-LWGrayTheme_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWGrayTheme_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E847333586F933457D385E9AA239CE1 /* Pods-LWGrayTheme_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWGrayTheme_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1B0E9687F4D3B13A44F4D27EE0CD010 /* LWGrayTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWGrayTheme.release.xcconfig; sourceTree = "<group>"; };
+		A5965DB15D671E22C08838701DD9C651 /* Pods-LWGrayTheme_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWGrayTheme_Example.modulemap"; sourceTree = "<group>"; };
+		AB00619420A4119337DC2F79C78BBDEA /* Pods-LWGrayTheme_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWGrayTheme_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABE9A8D9A63A3578F4F5ABC215014190 /* LWGrayTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWGrayTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACA0A53B1C7BB842EF06D6E21C081A5E /* Pods-LWGrayTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWGrayTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B14D5B7879B9DC7A2BE0CBA528CDD94D /* Pods-LWGrayTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWGrayTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C95E9B22A6808A185B8343D5C3B4F53D /* LWGrayTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWGrayTheme.debug.xcconfig; sourceTree = "<group>"; };
+		CAD501D7B5E83997FF46D5A17FCA1425 /* LWGrayTheme */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LWGrayTheme; path = LWGrayTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EA39423901199F5AB64DEF9390394D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DB9C35C57C42968F2B535C4FE4DACE0B /* Pods-LWGrayTheme_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWGrayTheme_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBFA38D92BE30A65ACFA239BF4E3799A /* Pods-LWGrayTheme_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWGrayTheme_Example-Info.plist"; sourceTree = "<group>"; };
+		E723527E153E9175958566CD1CEEB43B /* LWGrayTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWGrayTheme-dummy.m"; sourceTree = "<group>"; };
+		EADF8FA85FA2EC2AFD127407A721FAF7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LWGrayTheme/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EED7B04F6D1611431E8D5D06876DCD0A /* Pods-LWGrayTheme_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWGrayTheme_Example-umbrella.h"; sourceTree = "<group>"; };
+		FFE2270E0A7962260EFE65E1DF6CEE9E /* Pods-LWGrayTheme_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWGrayTheme_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268E247D25AB36B42566B18A0FB65FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1132B0A0FF104769B8A7F68972E632 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C8C9BF6964E3525D0A9DCE199CDF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E2B3BA13F7D461A9746B2A676CD84E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A95E9E2D5BC4D623D4D1477AAA82079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0DACDF5734A1A2B4F16722E54F55CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0AB00F92AD44D5C40D691A7440C5CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB6AE07D340FC7D8F154520A739EBB /* Pods-LWGrayTheme_Example */,
+				B9B432383755DF8D3139633144F3A4A5 /* Pods-LWGrayTheme_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22500668215CA3DD2AE29AF74D4C8099 /* LWGrayTheme */ = {
+			isa = PBXGroup;
+			children = (
+				EADF8FA85FA2EC2AFD127407A721FAF7 /* ReplaceMe.m */,
+				4E0F8DB51E9B81F9DB64751E1DC04D10 /* Pod */,
+				5BC9387C85A0244ABA877BB8E4FE085F /* Support Files */,
+			);
+			name = LWGrayTheme;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C28AE5A678C75748E19DDECCA6005D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD501D7B5E83997FF46D5A17FCA1425 /* LWGrayTheme */,
+				8A0192A64837CE2A213ACED1A084B965 /* Pods-LWGrayTheme_Example */,
+				9BB454B32F82B59783819126D051E275 /* Pods-LWGrayTheme_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E0F8DB51E9B81F9DB64751E1DC04D10 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4EA39423901199F5AB64DEF9390394D /* LICENSE */,
+				ABE9A8D9A63A3578F4F5ABC215014190 /* LWGrayTheme.podspec */,
+				3C144D5F23F4EA2F079D74A12F4AC753 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BC9387C85A0244ABA877BB8E4FE085F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				599950FFA1214BC1E79FEF882B5988EE /* LWGrayTheme.modulemap */,
+				E723527E153E9175958566CD1CEEB43B /* LWGrayTheme-dummy.m */,
+				78115C047A8B31A1632A992948042306 /* LWGrayTheme-Info.plist */,
+				58F33739FC337304D3495302A5DCC2CA /* LWGrayTheme-prefix.pch */,
+				903FA9B4AB9639A8B66C2F068D6FC751 /* LWGrayTheme-umbrella.h */,
+				C95E9B22A6808A185B8343D5C3B4F53D /* LWGrayTheme.debug.xcconfig */,
+				A1B0E9687F4D3B13A44F4D27EE0CD010 /* LWGrayTheme.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LWGrayTheme";
+			sourceTree = "<group>";
+		};
+		5EFB6AE07D340FC7D8F154520A739EBB /* Pods-LWGrayTheme_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A5965DB15D671E22C08838701DD9C651 /* Pods-LWGrayTheme_Example.modulemap */,
+				AB00619420A4119337DC2F79C78BBDEA /* Pods-LWGrayTheme_Example-acknowledgements.markdown */,
+				DB9C35C57C42968F2B535C4FE4DACE0B /* Pods-LWGrayTheme_Example-acknowledgements.plist */,
+				19BC69B048CAC23FAEBD05E97BFDBCB7 /* Pods-LWGrayTheme_Example-dummy.m */,
+				04D8D4AD326219D273E37F567E2E6FF1 /* Pods-LWGrayTheme_Example-frameworks.sh */,
+				DBFA38D92BE30A65ACFA239BF4E3799A /* Pods-LWGrayTheme_Example-Info.plist */,
+				EED7B04F6D1611431E8D5D06876DCD0A /* Pods-LWGrayTheme_Example-umbrella.h */,
+				ACA0A53B1C7BB842EF06D6E21C081A5E /* Pods-LWGrayTheme_Example.debug.xcconfig */,
+				7920E87234FC0B908373C95E8D76358D /* Pods-LWGrayTheme_Example.release.xcconfig */,
+			);
+			name = "Pods-LWGrayTheme_Example";
+			path = "Target Support Files/Pods-LWGrayTheme_Example";
+			sourceTree = "<group>";
+		};
+		B9B432383755DF8D3139633144F3A4A5 /* Pods-LWGrayTheme_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0F2C11A8AF3B7A0E044D68EEC58A05 /* Pods-LWGrayTheme_Tests.modulemap */,
+				9E847333586F933457D385E9AA239CE1 /* Pods-LWGrayTheme_Tests-acknowledgements.markdown */,
+				FFE2270E0A7962260EFE65E1DF6CEE9E /* Pods-LWGrayTheme_Tests-acknowledgements.plist */,
+				9C03D2B46B3A2229A2A869151E835848 /* Pods-LWGrayTheme_Tests-dummy.m */,
+				5213EB4665AF3CE4940EEE2F4F275328 /* Pods-LWGrayTheme_Tests-Info.plist */,
+				831C369A946B74EF9F11B9CFC050CAA4 /* Pods-LWGrayTheme_Tests-umbrella.h */,
+				97A339E05FD6E146C4609B51DA496CD2 /* Pods-LWGrayTheme_Tests.debug.xcconfig */,
+				B14D5B7879B9DC7A2BE0CBA528CDD94D /* Pods-LWGrayTheme_Tests.release.xcconfig */,
+			);
+			name = "Pods-LWGrayTheme_Tests";
+			path = "Target Support Files/Pods-LWGrayTheme_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D3B7CF391E861E011BE8F2E3EF5B18A3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3C28AE5A678C75748E19DDECCA6005D2 /* Products */,
+				1C0AB00F92AD44D5C40D691A7440C5CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B7CF391E861E011BE8F2E3EF5B18A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22500668215CA3DD2AE29AF74D4C8099 /* LWGrayTheme */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6935B4C16474E92313EC3DCB44FEEBFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032288D70D7C66AAE6CF4D76788AB027 /* LWGrayTheme-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A20125DD19F73086727F4D7543A246A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6C2124FA68BA22A73992D6CA28BE74 /* Pods-LWGrayTheme_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54047686B638FF9AD43EDF3581A81A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737DBDB514379976AA30EFF643482854 /* Pods-LWGrayTheme_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D8B054DA8DE570FF2A1FF06C8B950BB /* Pods-LWGrayTheme_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA7727A41A69238D91560A30F2D5F03 /* Build configuration list for PBXNativeTarget "Pods-LWGrayTheme_Example" */;
+			buildPhases = (
+				C54047686B638FF9AD43EDF3581A81A7 /* Headers */,
+				F1512D9722F21D773FC17944659F9705 /* Sources */,
+				27C8C9BF6964E3525D0A9DCE199CDF23 /* Frameworks */,
+				B5C12C7B151290C49D8102FDF4D28827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A0B5BCDD1AF1E4D5D533833F343E18 /* PBXTargetDependency */,
+			);
+			name = "Pods-LWGrayTheme_Example";
+			productName = Pods_LWGrayTheme_Example;
+			productReference = 8A0192A64837CE2A213ACED1A084B965 /* Pods-LWGrayTheme_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		6487EECF663602C4AD02EE1F3015D845 /* Pods-LWGrayTheme_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86F212CBBF746CEF6A705C7E0EF9652 /* Build configuration list for PBXNativeTarget "Pods-LWGrayTheme_Tests" */;
+			buildPhases = (
+				8A20125DD19F73086727F4D7543A246A /* Headers */,
+				C5C23AF97547745A5199B7F7078941A0 /* Sources */,
+				268E247D25AB36B42566B18A0FB65FEC /* Frameworks */,
+				A08929F44A201B7438FABDD800D79C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D79B58AB409C6BAE70E51CD12734343 /* PBXTargetDependency */,
+			);
+			name = "Pods-LWGrayTheme_Tests";
+			productName = Pods_LWGrayTheme_Tests;
+			productReference = 9BB454B32F82B59783819126D051E275 /* Pods-LWGrayTheme_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE6A009D468E66F1C1A12755BE5A6BD1 /* LWGrayTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA68AAF6ABA0B310CA56096FD7437AF /* Build configuration list for PBXNativeTarget "LWGrayTheme" */;
+			buildPhases = (
+				6935B4C16474E92313EC3DCB44FEEBFE /* Headers */,
+				C4CAB2C5B11D01D471841E366405392F /* Sources */,
+				8A95E9E2D5BC4D623D4D1477AAA82079 /* Frameworks */,
+				44E47EA1023E375AE2CE24A117BC0C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWGrayTheme;
+			productName = LWGrayTheme;
+			productReference = CAD501D7B5E83997FF46D5A17FCA1425 /* LWGrayTheme */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C28AE5A678C75748E19DDECCA6005D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6A009D468E66F1C1A12755BE5A6BD1 /* LWGrayTheme */,
+				0D8B054DA8DE570FF2A1FF06C8B950BB /* Pods-LWGrayTheme_Example */,
+				6487EECF663602C4AD02EE1F3015D845 /* Pods-LWGrayTheme_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E47EA1023E375AE2CE24A117BC0C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08929F44A201B7438FABDD800D79C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C12C7B151290C49D8102FDF4D28827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4CAB2C5B11D01D471841E366405392F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D8C5BE3E676BC72C633C3F942D24DA /* LWGrayTheme-dummy.m in Sources */,
+				E9DCE8F29876E519603DE01735EBA47C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C23AF97547745A5199B7F7078941A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A755F48C05E04B635C4D977EB1F07919 /* Pods-LWGrayTheme_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1512D9722F21D773FC17944659F9705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AA4164E0EB63D9A6FC62719EB491C2 /* Pods-LWGrayTheme_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D79B58AB409C6BAE70E51CD12734343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LWGrayTheme_Example";
+			target = 0D8B054DA8DE570FF2A1FF06C8B950BB /* Pods-LWGrayTheme_Example */;
+			targetProxy = A5E9AF87BC7ABE02E346120CB1874825 /* PBXContainerItemProxy */;
+		};
+		B7A0B5BCDD1AF1E4D5D533833F343E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWGrayTheme;
+			target = DE6A009D468E66F1C1A12755BE5A6BD1 /* LWGrayTheme */;
+			targetProxy = 3946C82512EF5AA6CD98136F628B7983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DE34F59FBF8E204BF344DCFFC9A0415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B0E9687F4D3B13A44F4D27EE0CD010 /* LWGrayTheme.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWGrayTheme/LWGrayTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWGrayTheme/LWGrayTheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWGrayTheme/LWGrayTheme.modulemap";
+				PRODUCT_MODULE_NAME = LWGrayTheme;
+				PRODUCT_NAME = LWGrayTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		726059B2310F2C84B20E4F75717CBA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A339E05FD6E146C4609B51DA496CD2 /* Pods-LWGrayTheme_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWGrayTheme_Tests/Pods-LWGrayTheme_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWGrayTheme_Tests/Pods-LWGrayTheme_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A1BAF9C9BF13DDD000CAA18E2778176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7920E87234FC0B908373C95E8D76358D /* Pods-LWGrayTheme_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWGrayTheme_Example/Pods-LWGrayTheme_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWGrayTheme_Example/Pods-LWGrayTheme_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B7ED00496ED7E12C32FB5A428AE176A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA0A53B1C7BB842EF06D6E21C081A5E /* Pods-LWGrayTheme_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWGrayTheme_Example/Pods-LWGrayTheme_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWGrayTheme_Example/Pods-LWGrayTheme_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE4CA48DE510B0EDEF2D0E43C6181381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14D5B7879B9DC7A2BE0CBA528CDD94D /* Pods-LWGrayTheme_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWGrayTheme_Tests/Pods-LWGrayTheme_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWGrayTheme_Tests/Pods-LWGrayTheme_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F90D5BDF6EDC0F27CE2554B5322B4F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95E9B22A6808A185B8343D5C3B4F53D /* LWGrayTheme.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWGrayTheme/LWGrayTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWGrayTheme/LWGrayTheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWGrayTheme/LWGrayTheme.modulemap";
+				PRODUCT_MODULE_NAME = LWGrayTheme;
+				PRODUCT_NAME = LWGrayTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA68AAF6ABA0B310CA56096FD7437AF /* Build configuration list for PBXNativeTarget "LWGrayTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90D5BDF6EDC0F27CE2554B5322B4F4A /* Debug */,
+				5DE34F59FBF8E204BF344DCFFC9A0415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA7727A41A69238D91560A30F2D5F03 /* Build configuration list for PBXNativeTarget "Pods-LWGrayTheme_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7ED00496ED7E12C32FB5A428AE176A /* Debug */,
+				8A1BAF9C9BF13DDD000CAA18E2778176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86F212CBBF746CEF6A705C7E0EF9652 /* Build configuration list for PBXNativeTarget "Pods-LWGrayTheme_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726059B2310F2C84B20E4F75717CBA89 /* Debug */,
+				CE4CA48DE510B0EDEF2D0E43C6181381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

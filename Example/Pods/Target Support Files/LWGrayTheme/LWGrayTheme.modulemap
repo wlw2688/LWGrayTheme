@@ -1,0 +1,6 @@
+framework module LWGrayTheme {
+  umbrella header "LWGrayTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}

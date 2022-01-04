@@ -1,0 +1,16 @@
+PODS:
+  - LWGrayTheme (0.1.0)
+
+DEPENDENCIES:
+  - LWGrayTheme (from `../`)
+
+EXTERNAL SOURCES:
+  LWGrayTheme:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LWGrayTheme: a4d55823e39e87a3e341534ee9c7b35b71661f6c
+
+PODFILE CHECKSUM: f9464aef815c58c39717a2e2f6587139ca900303
+
+COCOAPODS: 1.11.2
